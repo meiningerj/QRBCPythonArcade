@@ -10,10 +10,9 @@ arcade.open_window(600, 600, "ArcadeIntroduction")
 arcade.start_render()
 
 #this is where you type all the code you want to use to draw
-#for example arcade.draw_rectangle_filled(..) or arcade.draw_ellipse_filled()
-
-
-
+#try and work out what each number does
+#http://arcade.academy/arcade.html#drawing-commands may give you some hints
+arcade.draw_circle_filled(300,300,200,arcade.color.BLACK)
 
 #this command tells the program you are done writing all your drawing commands
 arcade.finish_render()
